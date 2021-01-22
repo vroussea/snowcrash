@@ -1,0 +1,2 @@
+scp -P 4242 level01@192.168.1.28:/etc/passwd ./.passwd
+john ./passwd (--show)
