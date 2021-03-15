@@ -1,0 +1,4 @@
+chmod 777 .
+rm level06.php
+scp -P 4242 .\level06\Ressources\level06.php level06@snowcrash:~
+./level06
