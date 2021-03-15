@@ -1,0 +1,7 @@
+strings level09
+scp -P 4242 .\level09\Ressources\main.c level09@snowcrash:~
+gcc main.c
+./a.out token
+su flag09
+# s5cAJpM8ev6XHw998pRWG728z
+getflag
