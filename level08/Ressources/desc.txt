@@ -1,0 +1,5 @@
+strings level08
+# token -> check
+chmod 777 .
+mv token toke
+./level08 toke
