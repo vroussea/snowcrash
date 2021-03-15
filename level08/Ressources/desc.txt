@@ -3,3 +3,5 @@ strings level08
 chmod 777 .
 mv token toke
 ./level08 toke
+su flag08
+# quif5eloekouj29ke0vouxean
