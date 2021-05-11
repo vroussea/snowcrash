@@ -1,0 +1,8 @@
+nm level10
+man access
+netstat -rn
+touch fake
+#host
+while true; do nc -l 6969; done
+#snowcrash
+while true; do ln -fs fake link; ln -fs token link; done & while true; do ./level10 link 192.168.1.254; done
