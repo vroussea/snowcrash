@@ -1,4 +1,4 @@
 cat $(find / -user flag00 2>/dev/null -print -quit)
-# rot-15 cdiiddwpgswtgt
+# dcode rot-13, result on rot-15 cdiiddwpgswtgt
 su flag00 (nottoohardhere)
 getflag

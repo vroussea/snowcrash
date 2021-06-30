@@ -1,8 +1,12 @@
 nm level10
 man access
 netstat -rn
+chmod 777 .
 touch fake
 #host
+#open 6969 port
+sudo iptables -A INPUT -p tcp --dport 6969 -j ACCEPT
+sudo systemctl restart iptables
 while true; do nc -l 6969; done
 #snowcrash
-while true; do ln -fs fake link; ln -fs token link; done & while true; do ./level10 link 192.168.1.254; done
+while true; do ln -fs fake link; ln -fs token link; done & while true; do ./level10 link 192.168.1.0; done

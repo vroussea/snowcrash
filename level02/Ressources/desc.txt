@@ -1,5 +1,5 @@
-scp -P 4242 level02@192.168.1.28:~/level02.pcap ./.test.pcap
-# Wireshark(.test.pcap) > result
-# decode_stream_hex(result)
+scp -P 4242 level02@snowcrash:~/level02.pcap ./level02.pcap
+# wireshark (follow / tcp stream)
+# Wireshark(.level02.pcap) > result
 # mdp : ft_wandr...NDRel.L0L (. = backspace)
-su flag02 (ft_waNDReLOL)
+su flag02 (ft_waNDReL0L)

@@ -1,2 +1,3 @@
+grep -a NAME level07
 export LOGNAME=\`getflag\`
 ./level07

@@ -1,5 +1,5 @@
 strings level08
-# token -> check
+# check sur "token" -> rename
 chmod 777 .
 mv token toke
 ./level08 toke

